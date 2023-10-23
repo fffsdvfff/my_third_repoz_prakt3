@@ -3,26 +3,24 @@
 <meta charset="utf-8">
 <title>nowadays</title>
 <style type="text/css">
-    .styled-table {
-        border-collapse: collapse; /* Згладжує границі комірок */
-        width: 100%; /* Задає ширину таблиці */
+    ul li:nth-child(odd) {
+        background-color: gray; 
+        color: #FFFFFF; 
     }
 
-    .styled-table th, .styled-table td {
-        border: 1px solid #000; /* Границі комірок */
-        padding: 8px; /* Відступи тексту від границь */
-        text-align: center; /* Вирівнювання тексту в комірці */
+    ul li:nth-child(even) {
+        background-color: white; 
+        color: #000000; 
     }
 
-    /* Оформлення заголовків */
-    .styled-table th {
-        background-color: #3498DB; /* Колір фону заголовків */
-        color: #FFFFFF; /* Колір тексту заголовків */
+    ol li.special:hover {
+        cursor: pointer;
+        text-decoration: underline;
     }
-
-    /* Змінене оформлення для парних рядків */
-    .styled-table tr:nth-child(even) {
-        background-color: #EDEDED; /* Колір фону для парних рядків */
+   
+    ol li:nth-child(4) {
+        background-color: #3498DB;
+        color: #FFFFFF;
     }
 </style>
 </head>
